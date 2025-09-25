@@ -1251,3 +1251,42 @@ a:hover {
 .service-detail-image{
   
 }
+.card-icon i{
+  color: wheat;
+}
+.testimonial-card {
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centers everything */
+  justify-content: space-between;
+  text-align: center;
+}
+
+.testimonial-card p {
+  flex: 1; /* keeps the text balanced */
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;  /* makes sure image is centered */
+  border: 3px solid var(--primary);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.testimonial-card strong,
+.testimonial-card div {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.faq-item{
+  padding: 0 20px;
+}

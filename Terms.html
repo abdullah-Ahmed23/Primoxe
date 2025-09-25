@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primoxe Digital legal policies including Privacy Policy, Terms of Service, Cookie Policy, and Refund Policy.">
+    <title>Legal Policies | Primoxe Digital</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Additional Legal Page Styles -->
+    <style>
+        /* Legal page specific styles */
+        .legal-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .legal-nav {
+            background-color: rgba(37, 99, 235, 0.05);
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            position: sticky;
+            top: 80px;
+            z-index: 10;
+        }
+
+        .legal-nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+
+        .legal-nav li a {
+            padding: 0.75rem 1.5rem;
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+
+        .legal-nav li a.active,
+        .legal-nav li a:hover {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .policy-section {
+            margin-bottom: 4rem;
+            padding: 2rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .policy-section:last-child {
+            border-bottom: none;
+            margin-bottom: 2rem;
+        }
+
+        .policy-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .policy-title {
+            font-size: 2rem;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .policy-subtitle {
+            color: var(--text-light);
+            margin-bottom: 1rem;
+        }
+
+        .policy-content {
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .policy-content h2, .policy-content h3, .policy-content h4 {
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .policy-content h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+
+        .policy-content h3 {
+            font-size: 1.3rem;
+        }
+
+        .policy-content ul, .policy-content ol {
+            margin: 1rem 0 1rem 2rem;
+        }
+
+        .policy-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 1rem;
+        }
+
+        .contact-legal {
+            background-color: rgba(37, 99, 235, 0.05);
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .legal-nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .policy-title {
+                font-size: 1.75rem;
+            }
+
+            .policy-content h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Universal Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">P</div>
+                <span>Primoxe <span class="text-accent">Digital</span></span>
+            </a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" class="btn btn-primary btn-pulse">Get Started</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="services-hero">
+        <div class="container text-center">
+            <h1 class="fade-in-up">Our Legal Policies</h1>
+            <p class="fade-in delay-1">
+                Your trust is important to us. Below you'll find our comprehensive policies regarding
+                privacy, terms of service, cookies, and refunds.
+            </p>
+        </div>
+    </section>
+
+    <!-- Legal Navigation -->
+    <div class="container">
+        <nav class="legal-nav fade-in delay-2" id="legalNav">
+            <ul>
+                <li><a href="#privacy-policy" class="active">Privacy Policy</a></li>
+                <li><a href="#terms-of-service">Terms of Service</a></li>
+                <li><a href="#cookie-policy">Cookie Policy</a></li>
+                <li><a href="#refund-policy">Refund Policy</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="legal-container">
+        <!-- Privacy Policy -->
+        <section class="policy-section" id="privacy-policy">
+            <div class="policy-header">
+                <h2 class="policy-title">Privacy Policy</h2>
+                <p class="policy-subtitle">Last Updated: September 25, 2025</p>
+            </div>
+
+            <div class="policy-content">
+                <p>Primoxe Digital ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [yourwebsite.com] or use our services.</p>
+
+                <h2>1. Information We Collect</h2>
+                <p>We may collect information about you in a variety of ways. The information we may collect on the Site includes:</p>
+
+                <h3>Personal Data</h3>
+                <p>Personally identifiable information, such as your name, shipping address, email address, and telephone number, that you voluntarily give to us when you choose to participate in various activities related to the Site, such as online chat and request forms.</p>
+
+                <h3>Derivative Data</h3>
+                <p>Information our servers automatically collect when you access the Site, such as your IP address, browser type, operating system, access times, and the pages you have viewed directly before and after accessing the Site.</p>
+
+                <h3>Financial Data</h3>
+                <p>Financial information, such as data related to your payment method (e.g., valid credit card number, card brand, expiration date) that we may collect when you purchase, order, return, exchange, or request information about our services.</p>
+
+                <h2>2. Use of Your Information</h2>
+                <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:</p>
+                <ul>
+                    <li>Create and manage your account</li>
+                    <li>Process your transactions and send you related information</li>
+                    <li>Send you technical notices, updates, security alerts, and support messages</li>
+                    <li>Respond to your comments, questions, and provide customer service</li>
+                    <li>Communicate with you about products, services, and offers</li>
+                    <li>Monitor and analyze trends, usage, and activities in connection with our services</li>
+                    <li>Detect and prevent fraudulent transactions and other illegal activities</li>
+                    <li>Request feedback and contact you about using our services</li>
+                </ul>
+
+                <h2>3. Disclosure of Your Information</h2>
+                <p>We may share information we have collected about you in certain situations. Your information may be disclosed as follows:</p>
+
+                <h3>By Law or to Protect Rights</h3>
+                <p>If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.</p>
+
+                <h3>Third-Party Service Providers</h3>
+                <p>We may share your information with third parties that perform services for us or on our behalf, including payment processing, data analysis, email delivery, hosting services, customer service, and marketing assistance.</p>
+
+                <h3>Marketing Communications</h3>
+                <p>With your consent, we may share your information with third parties for marketing purposes, as permitted by law.</p>
+
+                <h2>4. Tracking Technologies</h2>
+                <p>We may use cookies, web beacons, tracking pixels, and other tracking technologies on the Site to help customize the Site and improve your experience.</p>
+
+                <h3>Cookies</h3>
+                <p>A "cookie" is a small data file that can be placed on your hard drive when you visit certain websites. We may use cookies to collect, store, and track information for statistical purposes to operate our website and services.</p>
+
+                <h3>Web Beacons</h3>
+                <p>A web beacon is an electronic image, also called a single-pixel or clear GIF. Web beacons can recognize certain types of information on a visitor's computer, such as a visitor's cookie number, time and date of a page view, and a description of the page where the web beacon is placed.</p>
+
+                <h2>5. Third-Party Websites</h2>
+                <p>The Site may contain links to third-party websites and applications of interest, including advertisements and external services, that are not affiliated with us. Once you have used these links to leave the Site, any information you provide to these third parties is not covered by this Privacy Policy.</p>
+
+                <h2>6. Security of Your Information</h2>
+                <p>We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable.</p>
+
+                <h2>7. Policy for Children</h2>
+                <p>We do not knowingly solicit information from or market to children under the age of 13. If you become aware of any data we have collected from children under age 13, please contact us immediately.</p>
+
+                <h2>8. Controls for Do-Not-Track Features</h2>
+                <p>Most web browsers and some mobile operating systems include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected.</p>
+
+                <h2>9. Options Regarding Your Data</h2>
+                <p>You have the right to request access to, correction of, or deletion of your personal data. To make such requests, please contact us at privacy@primoxedigital.com.</p>
+
+                <h2>10. Contact Us</h2>
+                <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
+                <p><strong>Primoxe Digital</strong><br>
+                123 Brand Street, Suite 100<br>
+                New York, NY 10001<br>
+                privacy@primoxedigital.com</p>
+            </div>
+
+            <p class="last-updated">Last Updated: September 25, 2025</p>
+        </section>
+
+        <!-- Terms of Service -->
+        <section class="policy-section" id="terms-of-service">
+            <div class="policy-header">
+                <h2 class="policy-title">Terms of Service</h2>
+                <p class="policy-subtitle">Last Updated: September 25, 2025</p>
+            </div>
+
+            <div class="policy-content">
+                <p>Welcome to Primoxe Digital! These Terms of Service ("Terms") govern your access to and use of our services, including our website, brand building services, and any other services we offer (collectively, the "Services").</p>
+
+                <h2>1. Acceptance of Terms</h2>
+                <p>By accessing or using our Services, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the Services.</p>
+
+                <h2>2. Changes to Terms</h2>
+                <p>We reserve the right to modify these Terms at any time. We will provide notice of material changes by posting the updated Terms on our website. Your continued use of the Services after such changes constitutes your acceptance of the new Terms.</p>
+
+                <h2>3. Use of Services</h2>
+                <p>You agree to use the Services only for purposes that are permitted by these Terms and any applicable law, regulation, or generally accepted practices.</p>
+
+                <h3>Prohibited Activities</h3>
+                <p>You may not:</p>
+                <ul>
+                    <li>Violate any applicable laws or regulations</li>
+                    <li>Infringe upon or violate our intellectual property rights or the intellectual property rights of others</li>
+                    <li>Use the Services to transmit any material that is defamatory, offensive, or otherwise objectionable</li>
+                    <li>Interfere with or disrupt the Services or servers or networks connected to the Services</li>
+                    <li>Attempt to gain unauthorized access to any portion of the Services</li>
+                </ul>
+
+                <h2>4. Intellectual Property</h2>
+                <p>The Services and all content and materials included on the Services, including, without limitation, text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, are the property of Primoxe Digital or its content suppliers and are protected by international copyright laws.</p>
+
+                <h2>5. User Content</h2>
+                <p>You retain ownership of all content you submit to the Services ("User Content"). By submitting User Content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, publish, and distribute your User Content for the purposes of providing the Services.</p>
+
+                <h2>6. Payment Terms</h2>
+                <p>For paid Services, you agree to pay all fees and charges to your account in accordance with the fees, charges, and billing terms in effect at the time a fee or charge becomes payable.</p>
+
+                <h3>Refund Policy</h3>
+                <p>Our refund policy is outlined in the separate Refund Policy section below.</p>
+
+                <h2>7. Termination</h2>
+                <p>We may terminate or suspend your access to all or any part of the Services at any time, with or without cause, with or without notice, effective immediately.</p>
+
+                <h2>8. Disclaimer of Warranties</h2>
+                <p>THE SERVICES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED.</p>
+
+                <h2>9. Limitation of Liability</h2>
+                <p>TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL PRIMOXE DIGITAL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES.</p>
+
+                <h2>10. Indemnification</h2>
+                <p>You agree to defend, indemnify, and hold harmless Primoxe Digital from and against any claims, liabilities, damages, losses, and expenses arising out of your use of the Services.</p>
+
+                <h2>11. Governing Law</h2>
+                <p>These Terms shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law provisions.</p>
+
+                <h2>12. Contact Us</h2>
+                <p>If you have any questions about these Terms, please contact us at:</p>
+                <p><strong>Primoxe Digital</strong><br>
+                123 Brand Street, Suite 100<br>
+                New York, NY 10001<br>
+                legal@primoxedigital.com</p>
+            </div>
+
+            <p class="last-updated">Last Updated: September 25, 2025</p>
+        </section>
+
+        <!-- Cookie Policy -->
+        <section class="policy-section" id="cookie-policy">
+            <div class="policy-header">
+                <h2 class="policy-title">Cookie Policy</h2>
+                <p class="policy-subtitle">Last Updated: September 25, 2025</p>
+            </div>
+
+            <div class="policy-content">
+                <p>This Cookie Policy explains how Primoxe Digital ("we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our website. It explains what these technologies are and why we use them, as well as your rights to control our use of them.</p>
+
+                <h2>1. What are cookies?</h2>
+                <p>Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners to make their websites work, or to work more efficiently, as well as to provide reporting information.</p>
+
+                <h2>2. Why do we use cookies?</h2>
+                <p>We use first-party and third-party cookies for several reasons. Some cookies are required for technical reasons in order for our website to operate, and we refer to these as "essential" or "strictly necessary" cookies. Other cookies enable us to track and target the interests of our users to enhance the experience on our website.</p>
+
+                <h3>Types of Cookies We Use</h3>
+                <ul>
+                    <li><strong>Essential Cookies:</strong> These cookies are necessary for the website to function and cannot be switched off in our systems.</li>
+                    <li><strong>Performance Cookies:</strong> These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site.</li>
+                    <li><strong>Functionality Cookies:</strong> These cookies enable the website to provide enhanced functionality and personalization.</li>
+                    <li><strong>Targeting Cookies:</strong> These cookies may be set through our site by our advertising partners to build a profile of your interests.</li>
+                </ul>
+
+                <h2>3. How can you control cookies?</h2>
+                <p>You have the right to decide whether to accept or reject cookies. You can exercise your cookie preferences by clicking on the appropriate opt-out links provided in the cookie banner.</p>
+
+                <h3>Browser Controls</h3>
+                <p>You can set or amend your web browser controls to accept or refuse cookies. If you choose to reject cookies, you may still use our website though your access to some functionality and areas may be restricted.</p>
+
+                <h3>Cookie Consent Tool</h3>
+                <p>We use a cookie consent management tool that allows you to view and manage your cookie preferences.</p>
+
+                <h2>4. Changes to This Cookie Policy</h2>
+                <p>We may update this Cookie Policy from time to time. When we do, we will bring it to your attention by posting the revised policy on our website.</p>
+
+                <h2>5. Contact Us</h2>
+                <p>If you have any questions about our use of cookies, please contact us at:</p>
+                <p><strong>Primoxe Digital</strong><br>
+                123 Brand Street, Suite 100<br>
+                New York, NY 10001<br>
+                privacy@primoxedigital.com</p>
+            </div>
+
+            <p class="last-updated">Last Updated: September 25, 2025</p>
+        </section>
+
+        <!-- Refund Policy -->
+        <section class="policy-section" id="refund-policy">
+            <div class="policy-header">
+                <h2 class="policy-title">Refund Policy</h2>
+                <p class="policy-subtitle">Last Updated: September 25, 2025</p>
+            </div>
+
+            <div class="policy-content">
+                <p>At Primoxe Digital, we strive to provide the highest quality brand building services. We understand that sometimes plans change, and we want to ensure you're completely satisfied with your purchase.</p>
+
+                <h2>1. Service Refunds</h2>
+                <p>Our refund policy varies depending on the type of service purchased:</p>
+
+                <h3>One-Time Services</h3>
+                <p>For one-time services (such as logo design, website development, etc.):</p>
+                <ul>
+                    <li>Full refund available if canceled within 48 hours of purchase and before work has begun</li>
+                    <li>50% refund if canceled after work has begun but before completion</li>
+                    <li>No refund available after service completion and delivery</li>
+                </ul>
+
+                <h3>Subscription Services</h3>
+                <p>For ongoing subscription services (such as monthly social media management, ad campaigns, etc.):</p>
+                <ul>
+                    <li>Full refund for the current month if canceled within the first 7 days</li>
+                    <li>Prorated refund for the remaining days if canceled after the first 7 days</li>
+                    <li>No refund for partial months after the service period has ended</li>
+                </ul>
+
+                <h3>Custom Projects</h3>
+                <p>For custom projects with specific contracts:</p>
+                <ul>
+                    <li>Refund terms are specified in the individual project agreement</li>
+                    <li>Typically follows a milestone-based refund schedule</li>
+                    <li>Final 30% payment is non-refundable after project completion</li>
+                </ul>
+
+                <h2>2. Refund Process</h2>
+                <p>To request a refund:</p>
+                <ol>
+                    <li>Contact our customer support team at support@primoxedigital.com</li>
+                    <li>Provide your order number and reason for the refund request</li>
+                    <li>Our team will review your request and respond within 3-5 business days</li>
+                    <li>If approved, refunds will be processed to the original payment method within 7-10 business days</li>
+                </ol>
+
+                <h2>3. Non-Refundable Items</h2>
+                <p>The following items are non-refundable:</p>
+                <ul>
+                    <li>Domain name purchases or transfers</li>
+                    <li>Third-party software licenses purchased on your behalf</li>
+                    <li>Stock assets (images, videos, etc.) purchased specifically for your project</li>
+                    <li>Any work completed and delivered to you</li>
+                </ul>
+
+                <h2>4. Dispute Resolution</h2>
+                <p>If you're unsatisfied with our services, we encourage you to contact us first so we can attempt to resolve the issue. If we're unable to reach a satisfactory resolution, we will:</p>
+                <ul>
+                    <li>Review the specific circumstances of your case</li>
+                    <li>Consider partial refunds or credits for future services when appropriate</li>
+                    <li>Provide a final decision within 14 business days of your formal complaint</li>
+                </ul>
+
+                <h2>5. Contact Us</h2>
+                <p>For any questions regarding our refund policy, please contact us at:</p>
+                <p><strong>Primoxe Digital</strong><br>
+                123 Brand Street, Suite 100<br>
+                New York, NY 10001<br>
+                billing@primoxedigital.com</p>
+            </div>
+
+            <p class="last-updated">Last Updated: September 25, 2025</p>
+        </section>
+
+        <!-- Contact for Legal Questions -->
+        <div class="contact-legal fade-in">
+            <h3>Questions About Our Policies?</h3>
+            <p>If you have any questions or need further clarification about any of our policies, our legal team is here to help.</p>
+            <div style="margin-top: 1.5rem;">
+                <a href="contact.html" class="btn btn-primary btn-pulse">
+                    <i class="fas fa-envelope"></i> Contact Legal Team
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <a href="index.html" class="logo" style="color: white; margin-bottom: 1.5rem; display: inline-block;">
+                    <div class="logo-icon">P</div>
+                    <span>Primoxe <span style="color: var(--accent);">Digital</span></span>
+                </a>
+                <p style="color: #cbd5e1; margin-bottom: 1.5rem;">
+                    Your all-in-one solution for building brands that work from day one.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html#brand-strategy">Brand Strategy</a></li>
+                    <li><a href="services.html#brand-identity">Logo & Identity</a></li>
+                    <li><a href="services.html#web-dev">Web Development</a></li>
+                    <li><a href="services.html#social-media">Social Media</a></li>
+                    <li><a href="services.html#ad-campaigns">Ad Campaigns</a></li>
+                    <li><a href="services.html#analytics">Analytics</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="how-it-works.html">How It Works</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                   
+                    <li><a href="Terms.html">Terms of Service</a></li>
+                    <li><a href="Terms.html">Privacy Policy</a></li>
+                    <li><a href="Terms.html">Cookie Policy</a></li>
+                    <li><a href="Terms.html">Refund Policy</a></li>
+              
+                  
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2025 Primoxe Digital. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                hamburger.innerHTML = navLinks.classList.contains('active')
+                    ? '<i class="fas fa-times"></i>'
+                    : '<i class="fas fa-bars"></i>';
+
+                // Disable body scroll when menu is open
+                document.body.style.overflow = navLinks.classList.contains('active')
+                    ? 'hidden'
+                    : '';
+            });
+
+            // Close mobile menu when clicking a link
+            const navLinkItems = document.querySelectorAll('.nav-links a');
+            navLinkItems.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+                        document.body.style.overflow = '';
+                    }
+                });
+            });
+        }
+
+        // Header Scroll Effect
+        const header = document.querySelector('.header');
+        if (header) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+        }
+
+        // Legal Navigation
+        const legalNav = document.getElementById('legalNav');
+        if (legalNav) {
+            const navLinks = legalNav.querySelectorAll('a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    // Remove active class from all links
+                    navLinks.forEach(l => l.classList.remove('active'));
+
+                    // Add active class to clicked link
+                    link.classList.add('active');
+
+                    // Scroll to target section
+                    const targetId = link.getAttribute('href');
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        }
+
+        // Scroll animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in, .delay-1, .delay-2, .delay-3, .delay-4, .delay-5, .delay-6, .delay-7');
+
+            // Set initial opacity to 0 for fade-in elements
+            fadeElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            });
+
+            const checkVisibility = () => {
+                fadeElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+
+                    if (elementTop < windowHeight - 100) {
+                        // Add delay class if it exists
+                        if (element.classList.contains('delay-1')) {
+                            setTimeout(() => element.style.opacity = '1', 200);
+                        } else if (element.classList.contains('delay-2')) {
+                            setTimeout(() => element.style.opacity = '1', 400);
+                        } else if (element.classList.contains('delay-3')) {
+                            setTimeout(() => element.style.opacity = '1', 600);
+                        } else if (element.classList.contains('delay-4')) {
+                            setTimeout(() => element.style.opacity = '1', 800);
+                        } else if (element.classList.contains('delay-5')) {
+                            setTimeout(() => element.style.opacity = '1', 1000);
+                        } else if (element.classList.contains('delay-6')) {
+                            setTimeout(() => element.style.opacity = '1', 1200);
+                        } else if (element.classList.contains('delay-7')) {
+                            setTimeout(() => element.style.opacity = '1', 1400);
+                        } else {
+                            element.style.opacity = '1';
+                        }
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', checkVisibility);
+            window.addEventListener('load', checkVisibility);
+        });
+    </script>
+</body>
+</html>
