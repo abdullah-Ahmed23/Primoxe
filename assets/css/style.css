@@ -1164,6 +1164,7 @@ a:hover {
         justify-content: center;
         gap: var(--space-lg);
         transition: var(--transition);
+        z-index: 11000;
   }
 
   .nav-links.active {
@@ -1178,6 +1179,8 @@ a:hover {
   .hero-container {
     grid-template-columns: 1fr;
     text-align: center;
+    position: relative;
+    z-index: 100;
   }
 
   .hero-content h1 {
@@ -1289,4 +1292,19 @@ a:hover {
 }
 .faq-item{
   padding: 0 20px;
+}
+@media (max-width:768px) {
+  .cta-buttons a{
+    margin: 20px 0px;
+  }
+  .legal-nav ul li{
+    margin: 10px 0;
+  }
+  .process-step-content{
+    margin: 0 50px;
+  }
+  .process-step-content.right{
+    margin: 0 50px;
+  }
+  
 }
